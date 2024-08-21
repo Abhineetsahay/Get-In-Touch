@@ -1,0 +1,122 @@
+.contact-page {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading {
+  text-align: start;
+}
+.heading h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.span-head {
+  color: #4ac59d;
+}
+
+.subheading {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.form {
+  margin-bottom: 30px;
+}
+
+.city-postcode {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-postcode .MuiTextField-root {
+  width: 48%;
+}
+
+.file-upload {
+  margin-top: 20px;
+  position: relative;
+}
+
+.file-upload label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 30px;
+  border: 2px dotted #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.file-upload label:hover {
+  background-color: #f0f0f0;
+}
+
+.file-input {
+  display: none;
+}
+.image-preview {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 50%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.file-note {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.nda-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contact-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width:720px){
+  .contact-info{
+    flex-direction: column;
+  }
+}
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.phone-Email-desk {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.detail {
+  color: #dd5471;
+}
